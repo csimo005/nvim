@@ -22,4 +22,15 @@ return {
   },
   { "RRethy/vim-illuminate" },
   { "tpope/vim-surround" },
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    main = "ibl",
+    ---@module "ibl"
+    ---@type ibl.config
+    opts = {},
+  },
+  { "windwp/nvim-autopairs",
+    event = "InsertEnter",
+  },
+  { "numToStr/Comment.nvim" },
 }
